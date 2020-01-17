@@ -1,0 +1,6 @@
+ if(window.location.hash) {
+      var hash = window.location.hash.substring(1); //Puts hash in variable, and removes the # character
+      window.location.href = atob(hash);
+  } else {
+      // No hash found
+  }
